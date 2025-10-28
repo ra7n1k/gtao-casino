@@ -34,6 +34,18 @@ body main {
     padding: 2rem;
 }
 
+body section {
+    width: fit-content;
+}
+
+body main a {
+    color: #fff;
+    text-decoration: none;
+
+    padding: .5rem;
+    border-left: 2px solid #fff;
+}
+
 body h1 span {
     font-weight: normal;
 }
