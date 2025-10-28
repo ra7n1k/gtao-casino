@@ -20,7 +20,7 @@ body {
     color: #fff;
 
     width: 100%;
-    background: linear-gradient(90deg, #8000a040, transparent);
+    background: linear-gradient(90deg, transparent 0, #8000a080 25%, transparent 100%);
 }
 
 body main {
