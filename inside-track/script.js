@@ -1,7 +1,7 @@
 const form = document.querySelector("body form");
-const entries = document.querySelectorAll("body form input")
+const entries = form.querySelectorAll("input")
 
-form.addEventListener("submit", function(event) {
+form.addEventListener("submit", function (event) {
     event.preventDefault();
 
     let odds = [];

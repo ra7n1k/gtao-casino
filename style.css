@@ -9,33 +9,46 @@
     margin: 0;
     border-radius: 0;
 }
+
 html {
     margin: auto;
 }
+
 body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
 }
+
 body h1 span {
     font-weight: normal;
 }
+
 body form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+
 body form label {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     gap: .5rem;
 }
+
 body form input {
     padding: .5rem;
     border: 1px solid #808080;
 }
+
+body form select {
+    padding: .5rem;
+    background-color: transparent;
+    border: 1px solid #808080;
+}
+
 body form button {
     color: #fff;
     appearance: none;
@@ -45,4 +58,10 @@ body form button {
     border: none;
 
     cursor: pointer;
+}
+
+body form div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
